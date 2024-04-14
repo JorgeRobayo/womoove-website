@@ -1,0 +1,34 @@
+.NavBar {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .NavBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .NavBar li {
+    margin-right: 10px;
+  }
+  
+  .NavBar li:last-child {
+    margin-right: 0;
+  }
+  
+  .NavBar a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    display: block;
+  }
+  
+  .NavBar a:hover {
+    background-color: #eee;
+  }
