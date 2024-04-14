@@ -1,17 +1,22 @@
-import React from 'react'
-import './NavBar.css'
+import React from "react";
+import "./NavBar.css";
+import { Link } from "react-router-dom";
+import Products from "../../pages/Products/Products";
 
 export default function NavBar() {
   return (
     <div className="NavBar">
       <nav>
         <ul>
-          <li>
-            <a href="#home">Home</a>
-          </li>
-          <li>
+          <Link to="/">
+            <li>
+              <a href="#home">Home</a>
+            </li>
+          </Link>
+
+          <Link to="/products">
             <a href="#products">Products</a>
-          </li>
+          </Link>
           <li>
             <a href="#contact">Contact</a>
           </li>
@@ -21,5 +26,5 @@ export default function NavBar() {
         </ul>
       </nav>
     </div>
-  )
+  );
 }

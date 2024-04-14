@@ -18,6 +18,17 @@ import './BestSellers.css'
       name: "Product 3",
       price: "$24.99",
     },
+    {
+      src: "https://static.sscontent.com/thumb/500/500/products/124/v1172111_prozis_contour-regular-waist-leggings-black_xs_black_front.webp",
+      name: "Product 3",
+      price: "$24.99",
+    },
+    {
+      src: "https://static.sscontent.com/thumb/500/500/products/124/v1172111_prozis_contour-regular-waist-leggings-black_xs_black_front.webp",
+      name: "Product 3",
+      price: "$24.99",
+    },
+    
     // Add more best sellers here...
   ];
   

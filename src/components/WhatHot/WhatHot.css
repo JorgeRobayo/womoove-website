@@ -1,9 +1,20 @@
-.what-hot-container {
+/* .what-hot-master-container{
     display: flex;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
-    margin-top: 50px;
+} */
+
+.what-hot-options{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.what-hot-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
   }
   
 .what-hot-title {
@@ -18,11 +29,11 @@
     width: 300px;
   }
   
-.what-hot-form {
+/* .what-hot-form {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
+  } */
   
 .what-hot-product-title {
     font-size: 24px;
